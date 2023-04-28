@@ -1,4 +1,4 @@
-package tech.devinHouse;
+package tech.devinHouse.aula;
 
 public enum Operacao {
 

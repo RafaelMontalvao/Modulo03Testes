@@ -1,6 +1,7 @@
-package tech.devinHouse;
+package tech.devinHouse.aula;
 
 import org.junit.jupiter.api.*;
+import tech.devinHouse.aula.Operacao;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -33,7 +34,7 @@ class CalculadoraTest {
     @Test
     @DisplayName("Quando operacao de soma 2 nros positivos deve retornar nro positivo")
     void calcular_soma1(){
-       Float resultado = calculadora.calcular(2.1f,3.5f ,Operacao.SOMA);
+       Float resultado = calculadora.calcular(2.1f,3.5f , Operacao.SOMA);
        assertNotNull(resultado); // garante que o resultado nao seja nulo.
        assertEquals(5.6f, resultado);
     }

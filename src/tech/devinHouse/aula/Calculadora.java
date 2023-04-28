@@ -1,4 +1,6 @@
-package tech.devinHouse;
+package tech.devinHouse.aula;
+
+import tech.devinHouse.aula.Operacao;
 
 public class Calculadora {
 
